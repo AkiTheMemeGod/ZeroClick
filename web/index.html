@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeroClick - App Installer</title>
+    <link rel="stylesheet" href="/web/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-shell">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <div class="icon">⚡</div>
+                    <h1>ZeroClick</h1>
+                </div>
+            </div>
+            
+            <nav id="category-nav" class="category-nav">
+                <!-- Categories will be injected here -->
+            </nav>
+
+            <div class="footer-info">
+            <div class="speed-monitor">
+                <div class="speed-item">
+                    <div class="speed-icon down">
+                        <i class="fas fa-arrow-down"></i>
+                    </div>
+                    <div class="speed-details">
+                        <span class="label">Download</span>
+                        <span id="down-speed" class="value">0 B/s</span>
+                    </div>
+                </div>
+                <div class="speed-item">
+                    <div class="speed-icon up">
+                        <i class="fas fa-arrow-up"></i>
+                    </div>
+                    <div class="speed-details">
+                        <span class="label">Upload</span>
+                        <span id="up-speed" class="value">0 B/s</span>
+                    </div>
+                </div>
+            </div>
+            <div id="admin-warning" class="hidden">
+                Run as Admin for silent install
+            </div>
+        </div>
+    </aside>
+
+        <main class="main-content">
+            <header class="top-bar">
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search applications...">
+                </div>
+                <div class="actions">
+                    <button id="select-all" class="btn secondary">Select All</button>
+                    <button id="deselect-all" class="btn secondary">Deselect</button>
+                </div>
+            </header>
+
+            <div id="app-container" class="app-container">
+                <h2 id="current-category-title" class="category-title">All Applications</h2>
+                <div class="app-grid" id="app-grid">
+                    <div class="loading">Loading dashboard...</div>
+                </div>
+            </div>
+
+            <section class="status-panel">
+                <h3>Installation Queue</h3>
+                <div id="status-container" class="status-container">
+                    <p class="empty-state">Nothing in queue.</p>
+                </div>
+            </section>
+        </main>
+
+        <div id="selection-dock" class="selection-dock hidden">
+            <div class="dock-content">
+                <div id="dock-apps" class="dock-apps"></div>
+                <div class="dock-actions">
+                    <button id="install-btn" class="primary-btn">Install 0 Apps</button>
+                    <button id="generate-btn" class="secondary-btn">Get Your Installer</button>
+                    <button id="clear-selection" class="text-btn">Clear All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/web/script.js"></script>
+</body>
+</html>
