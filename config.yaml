@@ -1,0 +1,5 @@
+downloads_dir: "downloads"
+logs_dir: "logs"
+data_dir: "data"
+parallel_installs: false
+logging_level: "INFO"
