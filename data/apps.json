@@ -5,7 +5,7 @@
     "download_url": "https://dl.google.com/chrome/install/latest/chrome_installer.exe",
     "silent_args": "/silent /install",
     "file_type": ".exe",
-    "category": "Web Browsers",
+    "category": "Browsers",
     "icon_url": "https://www.google.com/s2/favicons?domain=google.com&sz=64"
   },
   {
@@ -14,7 +14,7 @@
     "download_url": "https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=en-US",
     "silent_args": "-ms",
     "file_type": ".exe",
-    "category": "Web Browsers",
+    "category": "Browsers",
     "icon_url": "https://www.google.com/s2/favicons?domain=mozilla.org&sz=64"
   },
   {
@@ -29,7 +29,7 @@
   {
     "id": "git",
     "name": "Git for Windows",
-    "download_url": "https://github.com/git-for-windows/git/releases/latest/download/Git-2.40.1-64-bit.exe",
+    "download_url": "https://github.com/git-for-windows/git/releases/download/v2.48.1.windows.1/Git-2.48.1-64-bit.exe",
     "silent_args": "/VERYSILENT /NORESTART /NOCANCEL /SP- /CLOSEAPPLICATIONS /RESTARTAPPLICATIONS",
     "file_type": ".exe",
     "category": "Development",
@@ -47,7 +47,7 @@
   {
     "id": "7zip",
     "name": "7-Zip",
-    "download_url": "https://www.7-zip.org/a/7z2401-x64.msi",
+    "download_url": "https://www.7-zip.org/a/7z2409-x64.exe",
     "silent_args": "/quiet /qn /norestart",
     "file_type": ".msi",
     "category": "Utilities",
@@ -59,7 +59,7 @@
     "download_url": "https://get.videolan.org/vlc/3.0.20/win64/vlc-3.0.20-win64.exe",
     "silent_args": "/L=1033 /S",
     "file_type": ".exe",
-    "category": "Media",
+    "category": "Media & Design",
     "icon_url": "https://www.google.com/s2/favicons?domain=videolan.org&sz=64"
   },
   {
@@ -68,7 +68,7 @@
     "download_url": "https://discord.com/api/download?platform=win",
     "silent_args": "--silent",
     "file_type": ".exe",
-    "category": "Messaging",
+    "category": "Communication",
     "icon_url": "https://www.google.com/s2/favicons?domain=discord.com&sz=64"
   },
   {
@@ -86,7 +86,7 @@
     "download_url": "https://download.scdn.co/SpotifySetup.exe",
     "silent_args": "/S",
     "file_type": ".exe",
-    "category": "Media",
+    "category": "Media & Design",
     "icon_url": "https://www.google.com/s2/favicons?domain=spotify.com&sz=64"
   },
   {
@@ -95,7 +95,7 @@
     "download_url": "https://zoom.us/client/latest/ZoomInstallerFull.msi",
     "silent_args": "/quiet /qn /norestart",
     "file_type": ".msi",
-    "category": "Messaging",
+    "category": "Communication",
     "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64"
   },
   {
@@ -113,7 +113,7 @@
     "download_url": "https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe",
     "silent_args": "/S",
     "file_type": ".exe",
-    "category": "Media",
+    "category": "Gaming",
     "icon_url": "https://www.google.com/s2/favicons?domain=steampowered.com&sz=64"
   },
   {
@@ -128,7 +128,7 @@
   {
     "id": "libreoffice",
     "name": "LibreOffice",
-    "download_url": "https://download.documentfoundation.org/libreoffice/stable/7.6.5/win/x86_64/LibreOffice_7.6.5_Win_x86-64.msi",
+    "download_url": "https://download.documentfoundation.org/libreoffice/stable/26.2.2/win/x86_64/LibreOffice_26.2.2_Win_x86-64.msi",
     "silent_args": "/quiet /qn /norestart",
     "file_type": ".msi",
     "category": "Utilities",
@@ -137,10 +137,10 @@
   {
     "id": "brave",
     "name": "Brave Browser",
-    "download_url": "https://updates.bravesoftware.com/brave/BraveBrowserSetup.exe",
+    "download_url": "https://github.com/brave/brave-browser/releases/latest/download/BraveBrowserSetup.exe",
     "silent_args": "/silent /install",
     "file_type": ".exe",
-    "category": "Web Browsers",
+    "category": "Browsers",
     "icon_url": "https://www.google.com/s2/favicons?domain=brave.com&sz=64"
   },
   {
@@ -149,7 +149,7 @@
     "download_url": "https://net.geo.opera.com/opera/stable/windows",
     "silent_args": "/silent /install /launchopera=0",
     "file_type": ".exe",
-    "category": "Web Browsers",
+    "category": "Browsers",
     "icon_url": "https://www.google.com/s2/favicons?domain=opera.com&sz=64"
   },
   {
@@ -158,16 +158,16 @@
     "download_url": "https://download.gimp.org/gimp/v2.10/windows/gimp-2.10.36-setup.exe",
     "silent_args": "/VERYSILENT /NORESTART",
     "file_type": ".exe",
-    "category": "Media",
+    "category": "Media & Design",
     "icon_url": "https://www.google.com/s2/favicons?domain=gimp.org&sz=64"
   },
   {
     "id": "audacity",
     "name": "Audacity",
-    "download_url": "https://github.com/audacity/audacity/releases/download/Audacity-3.4.2/audacity-win-3.4.2-x64.exe",
+    "download_url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.7/audacity-win-3.7.7-64bit.exe",
     "silent_args": "/VERYSILENT /NORESTART",
     "file_type": ".exe",
-    "category": "Media",
+    "category": "Media & Design",
     "icon_url": "https://www.google.com/s2/favicons?domain=audacityteam.org&sz=64"
   },
   {
@@ -203,7 +203,7 @@
     "download_url": "https://dbeaver.io/files/dbeaver-ce-latest-x86_64-setup.exe",
     "silent_args": "/S",
     "file_type": ".exe",
-    "category": "Development",
+    "category": "Databases",
     "icon_url": "https://www.google.com/s2/favicons?domain=dbeaver.io&sz=64"
   },
   {
@@ -245,7 +245,7 @@
   {
     "id": "eaapp",
     "name": "EA App",
-    "download_url": "https://origin-a.akamaihd.net/Origin-Client-Download/origin/live/EAappInstaller.exe",
+    "download_url": "https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe",
     "silent_args": "/S",
     "file_type": ".exe",
     "category": "Gaming",
@@ -266,7 +266,7 @@
     "download_url": "https://github.com/obsproject/obs-studio/releases/download/30.1.2/OBS-Studio-30.1.2-Full-Installer-x64.exe",
     "silent_args": "/S",
     "file_type": ".exe",
-    "category": "Media",
+    "category": "Media & Design",
     "icon_url": "https://www.google.com/s2/favicons?domain=obsproject.com&sz=64"
   },
   {
@@ -308,10 +308,10 @@
   {
     "id": "heidisql",
     "name": "HeidiSQL",
-    "download_url": "https://www.heidisql.com/downloads/HeidiSQL_12.6_64_Setup.exe",
+    "download_url": "https://github.com/HeidiSQL/HeidiSQL/releases/download/v12.16/HeidiSQL_12.16.0.7229_Setup.exe",
     "silent_args": "/VERYSILENT",
     "file_type": ".exe",
-    "category": "Development",
+    "category": "Databases",
     "icon_url": "https://www.google.com/s2/favicons?domain=heidisql.com&sz=64"
   },
   {
@@ -335,10 +335,10 @@
   {
     "id": "wireshark",
     "name": "Wireshark",
-    "download_url": "https://2.tcdn.wireshark.org/win64/Wireshark-win64-4.2.3.exe",
+    "download_url": "https://2.na.dl.wireshark.org/win64/Wireshark-4.6.4-x64.exe",
     "silent_args": "/S",
     "file_type": ".exe",
-    "category": "Development",
+    "category": "Utilities",
     "icon_url": "https://www.google.com/s2/favicons?domain=wireshark.org&sz=64"
   },
   {
@@ -362,10 +362,10 @@
   {
     "id": "systeminformer",
     "name": "System Informer",
-    "download_url": "https://github.com/winsiderss/systeminformer/releases/download/v3.0.7303/systeminformer-3.0.7303-setup.exe",
+    "download_url": "https://github.com/winsiderss/systeminformer/releases/download/v3.2.25011.2103/systeminformer-3.2.25011-release-setup.exe",
     "silent_args": "/S",
     "file_type": ".exe",
-    "category": "Development",
+    "category": "Utilities",
     "icon_url": "https://www.google.com/s2/favicons?domain=systeminformer.com&sz=64"
   },
   {
@@ -374,7 +374,7 @@
     "download_url": "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.12.2/DB.Browser.for.SQLite-3.12.2-win64.msi",
     "silent_args": "/quiet /qn /norestart",
     "file_type": ".msi",
-    "category": "Development",
+    "category": "Databases",
     "icon_url": "https://www.google.com/s2/favicons?domain=sqlitebrowser.org&sz=64"
   },
   {
@@ -383,16 +383,16 @@
     "download_url": "https://downloads.vivaldi.com/stable/Vivaldi.6.6.3271.48.x64.exe",
     "silent_args": "--silent --install --accept-tos",
     "file_type": ".exe",
-    "category": "Web Browsers",
+    "category": "Browsers",
     "icon_url": "https://www.google.com/s2/favicons?domain=vivaldi.com&sz=64"
   },
   {
     "id": "telegram",
     "name": "Telegram Desktop",
-    "download_url": "https://updates.tdesktop.com/tsetup/tsetup.4.15.2.exe",
+    "download_url": "https://telegram.org/dl/desktop/win64",
     "silent_args": "/VERYSILENT",
     "file_type": ".exe",
-    "category": "Messaging",
+    "category": "Communication",
     "icon_url": "https://www.google.com/s2/favicons?domain=telegram.org&sz=64"
   },
   {
@@ -401,7 +401,7 @@
     "download_url": "https://web.whatsapp.com/desktop/windows/release/x64/WhatsAppSetup.exe",
     "silent_args": "/S",
     "file_type": ".exe",
-    "category": "Messaging",
+    "category": "Communication",
     "icon_url": "https://www.google.com/s2/favicons?domain=whatsapp.com&sz=64"
   },
   {
@@ -410,7 +410,7 @@
     "download_url": "https://updates.signal.org/desktop/signal-desktop-win-7.2.0.exe",
     "silent_args": "/S",
     "file_type": ".exe",
-    "category": "Messaging",
+    "category": "Communication",
     "icon_url": "https://www.google.com/s2/favicons?domain=signal.org&sz=64"
   },
   {
@@ -419,7 +419,7 @@
     "download_url": "https://www.aimp.ru/files/windows/aimp_5.30.2533_setup.exe",
     "silent_args": "/VERYSILENT",
     "file_type": ".exe",
-    "category": "Media",
+    "category": "Media & Design",
     "icon_url": "https://www.google.com/s2/favicons?domain=aimp.ru&sz=64"
   },
   {
@@ -428,7 +428,7 @@
     "download_url": "https://www.getmusicbee.com/download/latest/MusicBeeSetup.exe",
     "silent_args": "/S",
     "file_type": ".exe",
-    "category": "Media",
+    "category": "Media & Design",
     "icon_url": "https://www.google.com/s2/favicons?domain=getmusicbee.com&sz=64"
   },
   {
@@ -443,7 +443,7 @@
   {
     "id": "strawberryperl",
     "name": "Strawberry Perl",
-    "download_url": "https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/SP_53822_64bit_UCRT/strawberry-perl-5.38.2.2-64bit.msi",
+    "download_url": "https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/SP_54201_64bit/strawberry-perl-5.42.0.1-64bit.msi",
     "silent_args": "/quiet /qn /norestart",
     "file_type": ".msi",
     "category": "Development",
@@ -452,10 +452,190 @@
   {
     "id": "dotnet-sdk",
     "name": ".NET SDK 8.0",
-    "download_url": "https://download.visualstudio.microsoft.com/download/pr/45089e02-45e0-40e9-b5f7-c9993358079d/d90e292d3f0347895f320b9e83ec5507/dotnet-sdk-8.0.202-win-x64.exe",
+    "download_url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/8.0.419/dotnet-sdk-8.0.419-win-x64.exe",
     "silent_args": "/quiet /norestart",
     "file_type": ".exe",
     "category": "Development",
     "icon_url": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=64"
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB Community Server",
+    "download_url": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-8.0.0-signed.msi",
+    "silent_args": "/quiet /qn /norestart SHOULD_INSTALL_COMPASS=\"0\"",
+    "file_type": ".msi",
+    "category": "Databases",
+    "icon_url": "https://www.google.com/s2/favicons?domain=mongodb.com&sz=64"
+  },
+  {
+    "id": "mongodb-compass",
+    "name": "MongoDB Compass",
+    "download_url": "https://downloads.mongodb.com/compass/mongodb-compass-1.42.1-win32-x64.exe",
+    "silent_args": "/S",
+    "file_type": ".exe",
+    "category": "Databases",
+    "icon_url": "https://www.google.com/s2/favicons?domain=mongodb.com&sz=64"
+  },
+  {
+    "id": "antigravity",
+    "name": "Antigravity",
+    "download_url": "https://antigravity.im/download/win",
+    "silent_args": "/S",
+    "file_type": ".exe",
+    "category": "Development",
+    "icon_url": "https://www.google.com/s2/favicons?domain=antigravity.im&sz=64"
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "download_url": "https://downloader.cursor.sh/windows/nsis/x64",
+    "silent_args": "/S",
+    "file_type": ".exe",
+    "category": "Development",
+    "icon_url": "https://www.google.com/s2/favicons?domain=cursor.sh&sz=64"
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama",
+    "download_url": "https://ollama.com/download/OllamaSetup.exe",
+    "silent_args": "/silent",
+    "file_type": ".exe",
+    "category": "Development",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ollama.com&sz=64"
+  },
+  {
+    "id": "docker-desktop",
+    "name": "Docker Desktop",
+    "download_url": "https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe",
+    "silent_args": "install --quiet",
+    "file_type": ".exe",
+    "category": "Development",
+    "icon_url": "https://www.google.com/s2/favicons?domain=docker.com&sz=64"
+  },
+  {
+    "id": "powertoys",
+    "name": "Microsoft PowerToys",
+    "download_url": "https://github.com/microsoft/PowerToys/releases/latest/download/PowerToysSetup-0.80.1-x64.exe",
+    "silent_args": "/quiet /norestart",
+    "file_type": ".exe",
+    "category": "Utilities",
+    "icon_url": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=64"
+  },
+  {
+    "id": "rustup",
+    "name": "Rustup (Rust Toolchain)",
+    "download_url": "https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe",
+    "silent_args": "-y",
+    "file_type": ".exe",
+    "category": "Development",
+    "icon_url": "https://www.google.com/s2/favicons?domain=rust-lang.org&sz=64"
+  },
+  {
+    "id": "neovim",
+    "name": "Neovim",
+    "download_url": "https://github.com/neovim/neovim/releases/latest/download/nvim-win64.msi",
+    "silent_args": "/quiet /qn /norestart",
+    "file_type": ".msi",
+    "category": "Development",
+    "icon_url": "https://www.google.com/s2/favicons?domain=neovim.io&sz=64"
+  },
+  {
+    "id": "tableplus",
+    "name": "TablePlus",
+    "download_url": "https://tableplus.com/release/windows/tableplus_latest.exe",
+    "silent_args": "/VERYSILENT",
+    "file_type": ".exe",
+    "category": "Databases",
+    "icon_url": "https://www.google.com/s2/favicons?domain=tableplus.com&sz=64"
+  },
+  {
+    "id": "insomnia",
+    "name": "Insomnia",
+    "download_url": "https://updates.insomnia.rest/downloads/windows/latest?app=com.insomnia.app&source=website",
+    "silent_args": "/S",
+    "file_type": ".exe",
+    "category": "Development",
+    "icon_url": "https://www.google.com/s2/favicons?domain=insomnia.rest&sz=64"
+  },
+  {
+    "id": "pycharm-community",
+    "name": "PyCharm Community Edition",
+    "download_url": "https://download.jetbrains.com/python/pycharm-community-2024.1.exe",
+    "silent_args": "/S",
+    "file_type": ".exe",
+    "category": "Development",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jetbrains.com&sz=64"
+  },
+  {
+    "id": "intellij-community",
+    "name": "IntelliJ IDEA Community Edition",
+    "download_url": "https://download.jetbrains.com/idea/ideaIC-2024.1.exe",
+    "silent_args": "/S",
+    "file_type": ".exe",
+    "category": "Development",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jetbrains.com&sz=64"
+  },
+  {
+    "id": "android-studio",
+    "name": "Android Studio",
+    "download_url": "https://redirector.gvt1.com/edgedl/android/studio/install/2024.1.1.11/android-studio-2024.1.1.11-windows.exe",
+    "silent_args": "/S",
+    "file_type": ".exe",
+    "category": "Development",
+    "icon_url": "https://www.google.com/s2/favicons?domain=google.com&sz=64"
+  },
+  {
+    "id": "winscp",
+    "name": "WinSCP",
+    "download_url": "https://cdn.winscp.net/files/WinSCP-6.3.3-Setup.exe",
+    "silent_args": "/VERYSILENT /NORESTART",
+    "file_type": ".exe",
+    "category": "Utilities",
+    "icon_url": "https://www.google.com/s2/favicons?domain=winscp.net&sz=64"
+  },
+  {
+    "id": "filezilla",
+    "name": "FileZilla",
+    "download_url": "https://download.filezilla-project.org/client/FileZilla_3.67.0_win64-setup.exe",
+    "silent_args": "/S",
+    "file_type": ".exe",
+    "category": "Utilities",
+    "icon_url": "https://www.google.com/s2/favicons?domain=filezilla-project.org&sz=64"
+  },
+  {
+    "id": "screentogif",
+    "name": "ScreenToGif",
+    "download_url": "https://github.com/NickeManarin/ScreenToGif/releases/download/2.41/ScreenToGif.2.41.Setup.msi",
+    "silent_args": "/quiet /qn /norestart",
+    "file_type": ".msi",
+    "category": "Media & Design",
+    "icon_url": "https://www.google.com/s2/favicons?domain=screentogif.com&sz=64"
+  },
+  {
+    "id": "windows-terminal",
+    "name": "Windows Terminal",
+    "download_url": "https://github.com/microsoft/terminal/releases/download/v1.20.11271.0/Microsoft.WindowsTerminal_1.20.11271.0_x64.zip",
+    "silent_args": "",
+    "file_type": ".zip",
+    "category": "Utilities",
+    "icon_url": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=64"
+  },
+  {
+    "id": "pwsh",
+    "name": "PowerShell 7",
+    "download_url": "https://github.com/PowerShell/PowerShell/releases/download/v7.4.2/PowerShell-7.4.2-win-x64.msi",
+    "silent_args": "/quiet /qn /norestart",
+    "file_type": ".msi",
+    "category": "Utilities",
+    "icon_url": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=64"
+  },
+  {
+    "id": "gh-cli",
+    "name": "GitHub CLI",
+    "download_url": "https://github.com/cli/cli/releases/download/v2.50.0/gh_2.50.0_windows_amd64.msi",
+    "silent_args": "/quiet /qn /norestart",
+    "file_type": ".msi",
+    "category": "Development",
+    "icon_url": "https://www.google.com/s2/favicons?domain=github.com&sz=64"
   }
 ]
