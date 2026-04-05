@@ -1,0 +1,2 @@
+2026-04-05 10:06:19,953 - httpx - INFO - HTTP Request: GET https://updates.bravesoftware.com/brave/BraveBrowserSetup.exe "HTTP/1.1 404 Not Found"
+2026-04-05 10:06:19,953 - ZeroClick - ERROR - Failed to download Brave Browser. Status code: 404
