@@ -1,0 +1,16 @@
+[
+    {
+        "id": "7zip",
+        "name": "7-Zip",
+        "download_url": "https://www.7-zip.org/a/7z2301-x64.exe",
+        "file_type": ".exe",
+        "silent_args": "/S"
+    },
+    {
+        "id": "vlc",
+        "name": "VLC Media Player",
+        "download_url": "https://get.videolan.org/vlc/3.0.18/win64/vlc-3.0.18-win64.exe",
+        "file_type": ".exe",
+        "silent_args": "/S"
+    }
+]
